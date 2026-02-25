@@ -22,7 +22,7 @@ class Rectangle implements Figure {
 
     @Override
     public void draw() {
-        System.out.printf("Figure: rectangle, area: %.2f sq. units, width: %.1f units, height: %.1f units, color: %s%n",
+        System.out.printf("Figure: rectangle, area: %.1f sq. units, width: %.1f units, height: %.1f units, color: %s%n",
                 getArea(), width, height, getColor());
     }
 }

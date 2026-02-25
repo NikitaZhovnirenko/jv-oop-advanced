@@ -23,7 +23,7 @@ class RightTriangle implements Figure {
     @Override
     public void draw() {
         System.out.printf("Figure: right triangle,"
-                        + " area: %.2f sq. units,"
+                        + " area: %.1f sq. units,"
                         + " firstLeg: %.1f units, secondLeg:"
                         + " %.1f units, color: %s%n",
                 getArea(), firstLeg, secondLeg, getColor());

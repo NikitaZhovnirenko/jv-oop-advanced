@@ -20,7 +20,7 @@ class Square implements Figure {
 
     @Override
     public void draw() {
-        System.out.printf("Figure: square, area: %.2f sq. units, side: %.1f units, color: %s%n",
+        System.out.printf("Figure: square, area: %.1f sq. units, side: %.1f units, color: %s%n",
                 getArea(), side, getColor());
     }
 }

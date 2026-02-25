@@ -20,7 +20,7 @@ class Circle implements Figure {
 
     @Override
     public void draw() {
-        System.out.printf("Figure: circle, area: %.2f sq. units,"
+        System.out.printf("Figure: circle, area: %.1f sq. units,"
                         + " radius: %.1f units, color: %s%n",
                 getArea(), radius, getColor());
     }
