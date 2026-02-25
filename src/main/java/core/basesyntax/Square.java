@@ -15,7 +15,7 @@ class Square extends AbstractFigure implements Figure {
 
     @Override
     public String getColor() {
-        return color;           // ← implemented here
+        return color;
     }
 
     @Override
