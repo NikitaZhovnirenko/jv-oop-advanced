@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 class Rectangle extends AbstractFigure {
     private final double width;
     private final double height;

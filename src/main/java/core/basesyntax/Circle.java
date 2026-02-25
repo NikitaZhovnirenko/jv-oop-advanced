@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 class Circle extends AbstractFigure {
     private final double radius;
 

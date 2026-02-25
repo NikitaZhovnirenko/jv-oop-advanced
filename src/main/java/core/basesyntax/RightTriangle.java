@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 class RightTriangle extends AbstractFigure {
     private final double firstLeg;
     private final double secondLeg;
