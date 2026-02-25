@@ -1,4 +1,5 @@
 package core.basesyntax;
+
 class IsoscelesTrapezoid implements Figure {
     private final double longerBase;
     private final double shorterBase;
@@ -6,10 +7,10 @@ class IsoscelesTrapezoid implements Figure {
     private final String color;
 
     public IsoscelesTrapezoid(double baseA, double baseB, double height, String color) {
-        this.longerBase  = Math.max(baseA, baseB);
+        this.longerBase = Math.max(baseA, baseB);
         this.shorterBase = Math.min(baseA, baseB);
-        this.height      = height;
-        this.color       = color;
+        this.height = height;
+        this.color = color;
     }
 
     @Override

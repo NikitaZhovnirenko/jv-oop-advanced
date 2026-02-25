@@ -1,4 +1,5 @@
 package core.basesyntax;
+
 class Rectangle implements Figure {
     private final double width;
     private final double height;
@@ -22,7 +23,9 @@ class Rectangle implements Figure {
 
     @Override
     public void draw() {
-        System.out.printf("Figure: rectangle, area: %.1f sq. units, width: %.1f units, height: %.1f units, color: %s%n",
+        System.out.printf("Figure: rectangle, area: %.1f sq. units, width:"
+                        + " %.1f units, height:"
+                        + " %.1f units, color: %s%n",
                 getArea(), width, height, getColor());
     }
 }

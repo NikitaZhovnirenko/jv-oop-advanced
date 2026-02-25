@@ -1,4 +1,5 @@
 package core.basesyntax;
+
 class Square implements Figure {
     private final double side;
     private final String color;

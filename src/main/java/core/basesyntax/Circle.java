@@ -1,4 +1,5 @@
 package core.basesyntax;
+
 class Circle implements Figure {
     private final double radius;
     private final String color;
