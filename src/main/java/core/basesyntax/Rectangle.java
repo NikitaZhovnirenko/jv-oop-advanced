@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-class Rectangle extends Figure {
+class Rectangle extends AbstractFigure {
     private double width;
     private double height;
 
@@ -11,17 +11,14 @@ class Rectangle extends Figure {
     }
 
     @Override
-    protected String getFigureType() {
-        return "rectangle";
-    }
-
-    @Override
     public double getArea() {
         return width * height;
     }
 
     @Override
-    protected String getSpecificProperties() {
-        return String.format("width: %.1f units, height: %.1f units", width, height);
+    public void draw() {
+        System.out.printf("Figure: rectangle, area: %.2f sq. units, width: %.1f units, height:"
+                        + " %.1f units, color: %s%n",
+                getArea(), width, height, getColor());
     }
 }
