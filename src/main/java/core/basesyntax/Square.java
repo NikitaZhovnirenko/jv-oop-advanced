@@ -1,4 +1,5 @@
 package core.basesyntax;
+
 class Square extends AbstractFigure implements Figure {
     private final double side;
 
