@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 class RightTriangle implements Figure {
     private final double firstLeg;
     private final double secondLeg;
